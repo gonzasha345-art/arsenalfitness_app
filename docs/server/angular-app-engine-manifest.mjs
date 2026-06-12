@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/arsenalfitness_app',
   allowedHosts: [],
   supportedLocales: {
   "en-US": ""

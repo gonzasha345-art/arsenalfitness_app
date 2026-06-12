@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/": {},
-    "/booking": {},
-    "/client": {},
-    "/purchase": {},
-    "/trainer": {}
+    "/arsenalfitness_app": {},
+    "/arsenalfitness_app/booking": {},
+    "/arsenalfitness_app/client": {},
+    "/arsenalfitness_app/purchase": {},
+    "/arsenalfitness_app/trainer": {}
   }
 }

@@ -2,44 +2,44 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/arsenalfitness_app/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/arsenalfitness_app"
   },
   {
     "renderMode": 2,
-    "route": "/client"
+    "route": "/arsenalfitness_app/client"
   },
   {
     "renderMode": 2,
-    "route": "/trainer"
+    "route": "/arsenalfitness_app/trainer"
   },
   {
     "renderMode": 2,
-    "route": "/booking"
+    "route": "/arsenalfitness_app/booking"
   },
   {
     "renderMode": 2,
-    "route": "/purchase"
+    "route": "/arsenalfitness_app/purchase"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/",
-    "route": "/**"
+    "redirectTo": "/arsenalfitness_app",
+    "route": "/arsenalfitness_app/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 11263, hash: '0298eeb9e6465cfd05ff9684047e689107e38fd2fd1b0b6810446170d4897813', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 955, hash: 'e411c417017bfd72ee593db0d1e1dceac13dc5c18e6320db4dbf1d3dde9ccac9', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 16553, hash: 'b812e85cb7fa536cf5be6e5b305c722db2f7409297b5571f9d4ae0a68aa913c6', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'client/index.html': {size: 18578, hash: 'f69ae9e53721ea1b35037d5a7acaa3cc4c59d67a4422d7157bb98cf4f248f07a', text: () => import('./assets-chunks/client_index_html.mjs').then(m => m.default)},
-    'booking/index.html': {size: 17025, hash: '0627fc11faeedc686e6a3eeb5bed8628ac2f703ffdac001f7ca563c1b9ffbb60', text: () => import('./assets-chunks/booking_index_html.mjs').then(m => m.default)},
-    'trainer/index.html': {size: 20294, hash: 'ac525c86d90d34615bbaaa3444e49056c43c64415543b11e2f51a20e3fb8fb38', text: () => import('./assets-chunks/trainer_index_html.mjs').then(m => m.default)},
-    'purchase/index.html': {size: 18072, hash: '572f91294d897b155e2f287a588dea5ce2e2301358bd5c11ab88163f75363e25', text: () => import('./assets-chunks/purchase_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 11282, hash: '118ac26fec178fb59bafecb23f8db52c9fd3c6b7b5bc8c9b5d17b8af7a6bb3e8', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 974, hash: 'ecfad82a15f873cce77e63bce9476b7a8aa3c5c4135ebdd46a2b5058e3a393a9', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 16610, hash: '9a5f48a84e5cc9f511246e3ff2c582bdee425a82decca22a770ff2767b067129', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'client/index.html': {size: 18635, hash: 'c77026df7d1bec339b4be0c0157b73866d9572b8b7caa8fa064dd9bccfb6bed6', text: () => import('./assets-chunks/client_index_html.mjs').then(m => m.default)},
+    'booking/index.html': {size: 17044, hash: '62bd40a3c2e17b1f76f03e32c26226574f2d01b1ace899c8e5e993070d4e2db0', text: () => import('./assets-chunks/booking_index_html.mjs').then(m => m.default)},
+    'purchase/index.html': {size: 18091, hash: '6546ad2d051aed888b73e73b67ad723bfc411ab8729ed90d25c53766e21445f7', text: () => import('./assets-chunks/purchase_index_html.mjs').then(m => m.default)},
+    'trainer/index.html': {size: 20313, hash: 'eb96a29ad6af281c51cb343ee5459a8ed118af982f51d253efcb92b98bfa416c', text: () => import('./assets-chunks/trainer_index_html.mjs').then(m => m.default)},
     'styles-FCWHJG6K.css': {size: 10830, hash: 'P1r1RaqLeSc', text: () => import('./assets-chunks/styles-FCWHJG6K_css.mjs').then(m => m.default)}
   },
 };
