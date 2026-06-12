@@ -28,10 +28,13 @@ jobs:
       - name: Build
         run: npm run build -- --configuration production --output-path docs
 
+      - name: Disable Jekyll for Pages
+        run: mkdir -p docs/browser && touch docs/browser/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./docs/browser
           publish_branch: gh-pages
           allow_empty_commit: false
