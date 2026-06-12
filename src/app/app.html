@@ -1,0 +1,19 @@
+<header class="app-header">
+  <div class="site-brand">
+    <a routerLink="/">Arsenal Fitness</a>
+  </div>
+  <nav>
+    <a routerLink="/client" routerLinkActive="active">Client</a>
+    <a routerLink="/trainer" routerLinkActive="active">Trainer</a>
+    <a routerLink="/booking" routerLinkActive="active">Book</a>
+    <a routerLink="/purchase" routerLinkActive="active">Purchase</a>
+  </nav>
+</header>
+
+<main class="app-shell">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="app-footer">
+  <p>Arsenal Fitness — schedule training, manage sessions, and unlock better client experiences.</p>
+</footer>
