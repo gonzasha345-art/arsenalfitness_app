@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/": {},
+    "/booking": {},
+    "/client": {},
+    "/purchase": {},
+    "/trainer": {}
+  }
+}
