@@ -6,10 +6,11 @@ import { BookingComponent } from './booking.component';
 import { PurchaseComponent } from './purchase.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'client', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'client', component: ClientComponent },
   { path: 'trainer', component: TrainerComponent },
   { path: 'booking', component: BookingComponent },
   { path: 'purchase', component: PurchaseComponent },
-  { path: '**', redirectTo: '' },
+  { path: '**', redirectTo: 'client' },
 ];
